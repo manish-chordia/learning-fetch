@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.loader {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid white;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+#loader {
+    width: 20px;
+    height: 20px;
+}
+
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
